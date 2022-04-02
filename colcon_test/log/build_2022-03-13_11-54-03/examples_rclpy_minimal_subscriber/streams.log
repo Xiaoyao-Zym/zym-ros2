@@ -1,0 +1,45 @@
+[1.774s] Invoking command in '/home/zym/Desktop/zym-ros2/colcon_test/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build install --prefix /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber --record /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed
+[2.116s] running egg_info
+[2.118s] creating ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info
+[2.118s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[2.119s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[2.119s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[2.120s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[2.120s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[2.122s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.167s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.169s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.169s] running build
+[2.169s] running build_py
+[2.169s] creating /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build
+[2.169s] creating /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build/lib
+[2.169s] creating /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[2.169s] copying examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[2.170s] copying examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[2.170s] copying examples_rclpy_minimal_subscriber/__init__.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[2.170s] copying examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[2.170s] running install
+[2.170s] running install_lib
+[2.171s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[2.171s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[2.171s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[2.171s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/__init__.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[2.171s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber
+[2.172s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber/subscriber_lambda.py to subscriber_lambda.cpython-38.pyc
+[2.173s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[2.174s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber/__init__.py to __init__.cpython-38.pyc
+[2.174s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber/subscriber_old_school.py to subscriber_old_school.cpython-38.pyc
+[2.174s] running install_data
+[2.175s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/share/ament_index
+[2.175s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[2.175s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.175s] copying resource/examples_rclpy_minimal_subscriber -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.176s] copying package.xml -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[2.176s] running install_egg_info
+[2.177s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples_rclpy_minimal_subscriber-0.9.4-py3.8.egg-info
+[2.178s] running install_scripts
+[2.202s] Installing subscriber_lambda script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.202s] Installing subscriber_member_function script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.203s] Installing subscriber_old_school script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.203s] writing list of installed files to '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/install.log'
+[2.267s] Invoked command in '/home/zym/Desktop/zym-ros2/colcon_test/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build install --prefix /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber --record /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed

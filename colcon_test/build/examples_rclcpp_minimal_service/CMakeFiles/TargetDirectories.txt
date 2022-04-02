@@ -1,0 +1,10 @@
+/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/install/strip.dir
+/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/install/local.dir
+/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/install.dir
+/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/list_install_components.dir
+/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/rebuild_cache.dir
+/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/service_main.dir
+/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/edit_cache.dir
+/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/test.dir
+/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/examples_rclcpp_minimal_service_uninstall.dir
+/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_service/CMakeFiles/uninstall.dir

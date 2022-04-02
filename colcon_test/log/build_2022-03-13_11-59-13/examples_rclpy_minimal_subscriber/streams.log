@@ -1,0 +1,20 @@
+[2.238s] Invoking command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber
+[2.510s] running develop
+[2.597s] running egg_info
+[2.598s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[2.598s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[2.598s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[2.598s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[2.598s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[2.620s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.623s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.648s] running build_ext
+[2.648s] Creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/site.py
+[2.650s] Creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[2.651s] Installing subscriber_lambda script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.651s] Installing subscriber_member_function script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.651s] Installing subscriber_old_school script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.651s] 
+[2.651s] Installed /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber
+[2.652s] running install_data
+[2.681s] Invoked command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber --editable --build-directory /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_subscriber/build --no-deps install_data --install-dir /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_subscriber

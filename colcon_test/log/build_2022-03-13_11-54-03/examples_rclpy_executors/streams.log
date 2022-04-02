@@ -1,0 +1,57 @@
+[1.826s] Invoking command in '/home/zym/Desktop/zym-ros2/colcon_test/src/examples/rclpy/executors': PYTHONPATH=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build install --prefix /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors --record /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/install.log --single-version-externally-managed
+[2.203s] running egg_info
+[2.204s] creating ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+[2.207s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[2.208s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[2.208s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[2.209s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[2.209s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[2.212s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.305s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.306s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.306s] running build
+[2.307s] running build_py
+[2.307s] creating /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build
+[2.307s] creating /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib
+[2.307s] creating /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.307s] copying examples_rclpy_executors/talker.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.307s] copying examples_rclpy_executors/custom_callback_group.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.307s] copying examples_rclpy_executors/custom_executor.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.307s] copying examples_rclpy_executors/listener.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.307s] copying examples_rclpy_executors/composed.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.307s] copying examples_rclpy_executors/__init__.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.308s] copying examples_rclpy_executors/callback_group.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[2.308s] running install
+[2.313s] running install_lib
+[2.315s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.315s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.315s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.315s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.315s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.315s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.319s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.319s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+[2.320s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/talker.py to talker.cpython-38.pyc
+[2.334s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-38.pyc
+[2.335s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-38.pyc
+[2.335s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/listener.py to listener.cpython-38.pyc
+[2.335s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/composed.py to composed.cpython-38.pyc
+[2.335s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-38.pyc
+[2.335s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-38.pyc
+[2.335s] running install_data
+[2.335s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/share/ament_index
+[2.335s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/share/ament_index/resource_index
+[2.335s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[2.335s] copying resource/examples_rclpy_executors -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[2.335s] copying package.xml -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/share/examples_rclpy_executors
+[2.335s] running install_egg_info
+[2.335s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info
+[2.347s] running install_scripts
+[2.385s] Installing callback_group script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.386s] Installing composed script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.389s] Installing custom_callback_group script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.390s] Installing custom_executor script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.390s] Installing listener script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.390s] Installing talker script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.390s] writing list of installed files to '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/install.log'
+[2.476s] Invoked command in '/home/zym/Desktop/zym-ros2/colcon_test/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/build install --prefix /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_executors --record /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_executors/install.log --single-version-externally-managed

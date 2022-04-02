@@ -1,0 +1,5 @@
+  File "/home/zym/Desktop/zym-ros2/town_ws/install/village_li/lib/python3.8/site-packages/village_li/li4.py", line 5
+    """
+    ^
+SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xd4 in position 9: invalid continuation byte
+

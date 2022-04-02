@@ -1,0 +1,20 @@
+[2.246s] Invoking command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_action_client': PYTHONPATH=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_action_client --editable --build-directory /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_action_client/build --no-deps install_data --install-dir /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_action_client
+[2.508s] running develop
+[2.603s] running egg_info
+[2.603s] writing examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[2.603s] writing dependency_links to examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[2.603s] writing entry points to examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[2.603s] writing requirements to examples_rclpy_minimal_action_client.egg-info/requires.txt
+[2.603s] writing top-level names to examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[2.625s] reading manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[2.625s] writing manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[2.647s] running build_ext
+[2.647s] Creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/site.py
+[2.650s] Creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples-rclpy-minimal-action-client.egg-link (link to .)
+[2.651s] Installing client script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.651s] Installing client_cancel script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.653s] Installing client_not_composable script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.653s] 
+[2.653s] Installed /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_action_client
+[2.653s] running install_data
+[2.688s] Invoked command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_action_client' returned '0': PYTHONPATH=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_action_client --editable --build-directory /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_action_client/build --no-deps install_data --install-dir /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_action_client

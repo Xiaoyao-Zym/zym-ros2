@@ -1,0 +1,49 @@
+[1.869s] Invoking command in '/home/zym/Desktop/zym-ros2/colcon_test/src/examples/rclpy/services/minimal_client': PYTHONPATH=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build install --prefix /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client --record /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed
+[2.443s] running egg_info
+[2.443s] creating ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info
+[2.443s] writing ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[2.443s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[2.443s] writing entry points to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[2.443s] writing requirements to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[2.443s] writing top-level names to ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[2.443s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[2.443s] reading manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[2.443s] writing manifest file '../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[2.443s] running build
+[2.443s] running build_py
+[2.444s] creating /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build
+[2.444s] creating /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build/lib
+[2.444s] creating /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[2.444s] copying examples_rclpy_minimal_client/client_async_member_function.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[2.444s] copying examples_rclpy_minimal_client/client.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[2.444s] copying examples_rclpy_minimal_client/client_async_callback.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[2.444s] copying examples_rclpy_minimal_client/__init__.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[2.444s] copying examples_rclpy_minimal_client/client_async.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client
+[2.444s] running install
+[2.444s] running install_lib
+[2.444s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[2.444s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_member_function.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[2.444s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[2.444s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async_callback.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[2.445s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/__init__.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[2.445s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build/lib/examples_rclpy_minimal_client/client_async.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client
+[2.445s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client_async_member_function.py to client_async_member_function.cpython-38.pyc
+[2.445s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client.py to client.cpython-38.pyc
+[2.445s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client_async_callback.py to client_async_callback.cpython-38.pyc
+[2.445s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/__init__.py to __init__.cpython-38.pyc
+[2.445s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client/client_async.py to client_async.cpython-38.pyc
+[2.445s] running install_data
+[2.445s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/share/ament_index
+[2.445s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/share/ament_index/resource_index
+[2.445s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[2.445s] copying resource/examples_rclpy_minimal_client -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[2.445s] copying package.xml -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[2.445s] running install_egg_info
+[2.445s] Copying ../../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client-0.9.4-py3.8.egg-info
+[2.446s] running install_scripts
+[2.446s] Installing client script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.446s] Installing client_async script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.446s] Installing client_async_callback script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.446s] Installing client_async_member_function script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.446s] writing list of installed files to '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/install.log'
+[2.502s] Invoked command in '/home/zym/Desktop/zym-ros2/colcon_test/src/examples/rclpy/services/minimal_client' returned '0': PYTHONPATH=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_client build --build-base /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/build install --prefix /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_client --record /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed

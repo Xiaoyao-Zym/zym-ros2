@@ -1,0 +1,60 @@
+[0.057s] Invoking command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zym/Desktop/zym-ros2/colcon_test/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client
+[1.140s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.141s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.141s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.142s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.143s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.143s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.144s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.144s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.144s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.144s] -- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.145s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.145s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.145s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.146s] -- Configured cppcheck include dirs: 
+[1.147s] -- Configured cppcheck exclude dirs and/or files: 
+[1.147s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.147s] -- Configured cpplint exclude dirs and/or files: 
+[1.147s] -- Added test 'lint_cmake' to check CMake code style
+[1.147s] -- Added test 'uncrustify' to check C / C++ code style
+[1.148s] -- Configured uncrustify additional arguments: 
+[1.148s] -- Added test 'xmllint' to check XML markup files
+[1.148s] -- Configuring done
+[1.149s] -- Generating done
+[1.149s] -- Build files have been written to: /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_action_client
+[1.191s] Invoked command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zym/Desktop/zym-ros2/colcon_test/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client
+[1.192s] Invoking command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_action_client -- -j16 -l16
+[1.208s] [ 12%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[1.208s] [ 25%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[1.210s] [ 37%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[1.211s] [ 50%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[1.834s] [ 62%] Built target action_client_not_composable
+[2.032s] [ 75%] Built target action_client_not_composable_with_feedback
+[2.102s] [ 87%] Built target action_client_member_functions
+[2.193s] [100%] Built target action_client_not_composable_with_cancel
+[2.251s] Invoked command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_action_client -- -j16 -l16
+[2.358s] Invoking command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_action_client
+[2.605s] -- Install configuration: ""
+[2.605s] -- Execute custom install script
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[2.606s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[2.607s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[2.607s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[2.618s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[2.619s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[2.624s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[2.668s] Invoked command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_action_client

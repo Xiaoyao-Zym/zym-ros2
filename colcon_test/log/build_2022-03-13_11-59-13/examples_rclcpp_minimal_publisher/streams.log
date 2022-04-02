@@ -1,0 +1,55 @@
+[0.054s] Invoking command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zym/Desktop/zym-ros2/colcon_test/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher
+[1.166s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.166s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.166s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.166s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.166s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.166s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.167s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.167s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.167s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.167s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.167s] -- Configured cppcheck include dirs: 
+[1.167s] -- Configured cppcheck exclude dirs and/or files: 
+[1.167s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.167s] -- Configured cpplint exclude dirs and/or files: 
+[1.167s] -- Added test 'lint_cmake' to check CMake code style
+[1.167s] -- Added test 'uncrustify' to check C / C++ code style
+[1.167s] -- Configured uncrustify additional arguments: 
+[1.167s] -- Added test 'xmllint' to check XML markup files
+[1.167s] -- Configuring done
+[1.167s] -- Generating done
+[1.167s] -- Build files have been written to: /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_publisher
+[1.181s] Invoked command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zym/Desktop/zym-ros2/colcon_test/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher
+[1.181s] Invoking command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[1.227s] [ 16%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[1.231s] [ 33%] [32m[1mLinking CXX executable publisher_member_function[0m
+[1.243s] [ 50%] [32m[1mLinking CXX executable publisher_lambda[0m
+[1.999s] [ 66%] Built target publisher_member_function
+[2.039s] [ 83%] Built target publisher_lambda
+[2.184s] [100%] Built target publisher_not_composable
+[2.232s] Invoked command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[2.320s] Invoking command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_publisher
+[2.542s] -- Install configuration: ""
+[2.543s] -- Execute custom install script
+[2.543s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[2.543s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[2.543s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[2.544s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[2.544s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[2.544s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[2.544s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[2.544s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[2.544s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[2.544s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[2.544s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[2.545s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[2.545s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[2.551s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[2.556s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[2.568s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[2.581s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[2.591s] -- Symlinking: /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[2.633s] Invoked command in '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_publisher

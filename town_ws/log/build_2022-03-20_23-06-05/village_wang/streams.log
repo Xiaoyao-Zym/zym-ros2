@@ -1,0 +1,76 @@
+[0.143s] Invoking command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zym/Desktop/zym-ros2/town_ws/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/zym/Desktop/zym-ros2/town_ws/install/village_wang
+[0.200s] -- The C compiler identification is GNU 9.4.0
+[0.240s] -- The CXX compiler identification is GNU 9.4.0
+[0.245s] -- Check for working C compiler: /usr/bin/cc
+[0.284s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.285s] -- Detecting C compiler ABI info
+[0.328s] -- Detecting C compiler ABI info - done
+[0.335s] -- Detecting C compile features
+[0.336s] -- Detecting C compile features - done
+[0.338s] -- Check for working CXX compiler: /usr/bin/c++
+[0.385s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.386s] -- Detecting CXX compiler ABI info
+[0.432s] -- Detecting CXX compiler ABI info - done
+[0.439s] -- Detecting CXX compile features
+[0.439s] -- Detecting CXX compile features - done
+[0.447s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.463s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.463s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.578s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.617s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.622s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.673s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.693s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.745s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.783s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.784s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.785s] -- Looking for pthread.h
+[0.834s] -- Looking for pthread.h - found
+[0.835s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.899s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.899s] -- Looking for pthread_create in pthreads
+[0.935s] -- Looking for pthread_create in pthreads - not found
+[0.935s] -- Looking for pthread_create in pthread
+[0.975s] -- Looking for pthread_create in pthread - found
+[0.976s] -- Found Threads: TRUE  
+[1.081s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.129s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.129s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.130s] -- Configured cppcheck include dirs: 
+[1.130s] -- Configured cppcheck exclude dirs and/or files: 
+[1.130s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.130s] -- Configured cpplint exclude dirs and/or files: 
+[1.131s] -- Added test 'lint_cmake' to check CMake code style
+[1.132s] -- Added test 'uncrustify' to check C / C++ code style
+[1.132s] -- Configured uncrustify additional arguments: 
+[1.132s] -- Added test 'xmllint' to check XML markup files
+[1.134s] -- Configuring done
+[1.138s] -- Generating done
+[1.139s] -- Build files have been written to: /home/zym/Desktop/zym-ros2/town_ws/build/village_wang
+[1.144s] Invoked command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zym/Desktop/zym-ros2/town_ws/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/zym/Desktop/zym-ros2/town_ws/install/village_wang
+[1.146s] Invoking command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/town_ws/build/village_wang -- -j16 -l16
+[1.169s] [35m[1mScanning dependencies of target wang2_node[0m
+[1.211s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[2.193s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[2.264s] [100%] Built target wang2_node
+[2.271s] Invoked command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/town_ws/build/village_wang -- -j16 -l16
+[2.301s] Invoking command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zym/Desktop/zym-ros2/town_ws/build/village_wang
+[2.310s] -- Install configuration: ""
+[2.310s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[2.310s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[2.310s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[2.310s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[2.310s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[2.311s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[2.311s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[2.311s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[2.311s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[2.311s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[2.311s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/package.dsv
+[2.311s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[2.311s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[2.312s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[2.312s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/package.xml
+[2.312s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/lib/village_wang/wang2_node
+[2.312s] -- Set runtime path of "/home/zym/Desktop/zym-ros2/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[2.315s] Invoked command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zym/Desktop/zym-ros2/town_ws/build/village_wang

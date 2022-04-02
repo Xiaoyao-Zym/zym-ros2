@@ -1,0 +1,45 @@
+[1.726s] Invoking command in '/home/zym/Desktop/zym-ros2/colcon_test/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/build install --prefix /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher --record /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[1.983s] running egg_info
+[1.985s] creating ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info
+[1.986s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[1.986s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[1.986s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[1.986s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[1.987s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[1.989s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.050s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.053s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.053s] running build
+[2.053s] running build_py
+[2.054s] creating /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/build
+[2.054s] creating /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/build/lib
+[2.054s] creating /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[2.054s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[2.054s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[2.055s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[2.055s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[2.059s] running install
+[2.061s] running install_lib
+[2.062s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[2.062s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[2.062s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[2.062s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[2.062s] copying /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[2.062s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-38.pyc
+[2.064s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[2.079s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-38.pyc
+[2.080s] byte-compiling /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-38.pyc
+[2.080s] running install_data
+[2.080s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/share/ament_index
+[2.081s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[2.081s] creating /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[2.081s] copying resource/examples_rclpy_minimal_publisher -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[2.081s] copying package.xml -> /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[2.081s] running install_egg_info
+[2.084s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info
+[2.085s] running install_scripts
+[2.143s] Installing publisher_local_function script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.143s] Installing publisher_member_function script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.144s] Installing publisher_old_school script to /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.144s] writing list of installed files to '/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/install.log'
+[2.176s] Invoked command in '/home/zym/Desktop/zym-ros2/colcon_test/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/build install --prefix /home/zym/Desktop/zym-ros2/colcon_test/install/examples_rclpy_minimal_publisher --record /home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

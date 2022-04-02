@@ -1,0 +1,10 @@
+[0.138s] Invoking command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zym/Desktop/zym-ros2/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/town_ws/build/village_wang -- -j16 -l16
+[0.159s] CMake Error at CMakeLists.txt:5:
+[0.159s]   Parse error.  Expected "(", got identifier with text "to".
+[0.159s] 
+[0.160s] 
+[0.160s] -- Configuring incomplete, errors occurred!
+[0.160s] See also "/home/zym/Desktop/zym-ros2/town_ws/build/village_wang/CMakeFiles/CMakeOutput.log".
+[0.160s] See also "/home/zym/Desktop/zym-ros2/town_ws/build/village_wang/CMakeFiles/CMakeError.log".
+[0.160s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.161s] Invoked command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zym/Desktop/zym-ros2/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/town_ws/build/village_wang -- -j16 -l16

@@ -1,0 +1,8 @@
+CMake Error at CMakeLists.txt:5:
+  Parse error.  Expected "(", got identifier with text "to".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/zym/Desktop/zym-ros2/town_ws/build/village_wang/CMakeFiles/CMakeOutput.log".
+See also "/home/zym/Desktop/zym-ros2/town_ws/build/village_wang/CMakeFiles/CMakeError.log".
+make: *** [Makefile:266: cmake_check_build_system] Error 1

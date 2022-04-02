@@ -1,0 +1,1 @@
+/home/zym/Desktop/zym-ros2/colcon_test/build/examples_rclcpp_minimal_composition/ament_cmake_core/examples_rclcpp_minimal_compositionConfig-version.cmake
