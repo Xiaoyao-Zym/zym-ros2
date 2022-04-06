@@ -1,0 +1,26 @@
+[0.126s] Invoking command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/town_ws/build/village_wang -- -j16 -l16
+[0.163s] [35m[1mScanning dependencies of target wang2_node[0m
+[0.177s] [ 50%] [32mBuilding CXX object CMakeFiles/wang2_node.dir/src/wang2.cpp.o[0m
+[1.179s] [100%] [32m[1mLinking CXX executable wang2_node[0m
+[1.254s] [100%] Built target wang2_node
+[1.262s] Invoked command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/town_ws/build/village_wang -- -j16 -l16
+[1.280s] Invoking command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zym/Desktop/zym-ros2/town_ws/build/village_wang
+[1.286s] -- Install configuration: ""
+[1.286s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[1.287s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[1.287s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[1.287s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[1.287s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/environment/path.sh
+[1.287s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/environment/path.dsv
+[1.287s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/local_setup.bash
+[1.287s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/local_setup.sh
+[1.288s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/local_setup.zsh
+[1.288s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/local_setup.dsv
+[1.288s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/package.dsv
+[1.288s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[1.288s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[1.288s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[1.288s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/share/village_wang/package.xml
+[1.288s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_wang/lib/village_wang/wang2_node
+[1.289s] -- Set runtime path of "/home/zym/Desktop/zym-ros2/town_ws/install/village_wang/lib/village_wang/wang2_node" to ""
+[1.291s] Invoked command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zym/Desktop/zym-ros2/town_ws/build/village_wang

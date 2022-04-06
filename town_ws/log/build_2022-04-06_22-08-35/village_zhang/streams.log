@@ -1,0 +1,26 @@
+[0.133s] Invoking command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zym/Desktop/zym-ros2/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/town_ws/build/village_zhang -- -j16 -l16
+[0.155s] [35m[1mScanning dependencies of target zhang2_node[0m
+[0.171s] [ 50%] [32mBuilding CXX object CMakeFiles/zhang2_node.dir/src/zhang2.cpp.o[0m
+[1.164s] [100%] [32m[1mLinking CXX executable zhang2_node[0m
+[1.226s] [100%] Built target zhang2_node
+[1.233s] Invoked command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zym/Desktop/zym-ros2/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/town_ws/build/village_zhang -- -j16 -l16
+[1.251s] Invoking command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zym/Desktop/zym-ros2/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/zym/Desktop/zym-ros2/town_ws/build/village_zhang
+[1.256s] -- Install configuration: ""
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/ament_index/resource_index/package_run_dependencies/village_zhang
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/ament_index/resource_index/parent_prefix_path/village_zhang
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.sh
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/village_zhang/environment/ament_prefix_path.dsv
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/village_zhang/environment/path.sh
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/village_zhang/environment/path.dsv
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/village_zhang/local_setup.bash
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/village_zhang/local_setup.sh
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/village_zhang/local_setup.zsh
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/village_zhang/local_setup.dsv
+[1.256s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/village_zhang/package.dsv
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/ament_index/resource_index/packages/village_zhang
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig.cmake
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/village_zhang/cmake/village_zhangConfig-version.cmake
+[1.256s] -- Up-to-date: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/share/village_zhang/package.xml
+[1.256s] -- Installing: /home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/lib/village_zhang/zhang2_node
+[1.256s] -- Set runtime path of "/home/zym/Desktop/zym-ros2/town_ws/install/village_zhang/lib/village_zhang/zhang2_node" to ""
+[1.258s] Invoked command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_zhang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zym/Desktop/zym-ros2/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake --install /home/zym/Desktop/zym-ros2/town_ws/build/village_zhang

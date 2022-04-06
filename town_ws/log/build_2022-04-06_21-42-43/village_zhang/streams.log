@@ -1,0 +1,62 @@
+[0.133s] Invoking command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_zhang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zym/Desktop/zym-ros2/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake /home/zym/Desktop/zym-ros2/town_ws/src/village_zhang -DCMAKE_INSTALL_PREFIX=/home/zym/Desktop/zym-ros2/town_ws/install/village_zhang
+[0.174s] -- The C compiler identification is GNU 9.4.0
+[0.208s] -- The CXX compiler identification is GNU 9.4.0
+[0.211s] -- Check for working C compiler: /usr/bin/cc
+[0.251s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.252s] -- Detecting C compiler ABI info
+[0.292s] -- Detecting C compiler ABI info - done
+[0.299s] -- Detecting C compile features
+[0.299s] -- Detecting C compile features - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++
+[0.349s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.350s] -- Detecting CXX compiler ABI info
+[0.396s] -- Detecting CXX compiler ABI info - done
+[0.403s] -- Detecting CXX compile features
+[0.404s] -- Detecting CXX compile features - done
+[0.406s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.420s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.420s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.532s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.562s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.607s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.625s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.672s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.706s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.707s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.707s] -- Looking for pthread.h
+[0.763s] -- Looking for pthread.h - found
+[0.763s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.834s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.834s] -- Looking for pthread_create in pthreads
+[0.881s] -- Looking for pthread_create in pthreads - not found
+[0.881s] -- Looking for pthread_create in pthread
+[0.972s] -- Looking for pthread_create in pthread - found
+[0.973s] -- Found Threads: TRUE  
+[1.068s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.111s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.112s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.112s] -- Configured cppcheck include dirs: 
+[1.112s] -- Configured cppcheck exclude dirs and/or files: 
+[1.113s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.113s] -- Configured cpplint exclude dirs and/or files: 
+[1.113s] -- Added test 'lint_cmake' to check CMake code style
+[1.113s] -- Added test 'uncrustify' to check C / C++ code style
+[1.113s] -- Configured uncrustify additional arguments: 
+[1.113s] -- Added test 'xmllint' to check XML markup files
+[1.116s] -- Configuring done
+[1.116s] CMake Error at CMakeLists.txt:34 (add_executable):
+[1.116s]   Cannot find source file:
+[1.116s] 
+[1.116s]     src/wang2.cpp
+[1.116s] 
+[1.116s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.117s]   .hpp .hxx .in .txx
+[1.117s] 
+[1.117s] 
+[1.117s] CMake Error at CMakeLists.txt:34 (add_executable):
+[1.117s]   No SOURCES given to target: zhang2_node
+[1.117s] 
+[1.117s] 
+[1.117s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.122s] Invoked command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_zhang' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zym/Desktop/zym-ros2/town_ws/install/village_li:/opt/ros/foxy /usr/bin/cmake /home/zym/Desktop/zym-ros2/town_ws/src/village_zhang -DCMAKE_INSTALL_PREFIX=/home/zym/Desktop/zym-ros2/town_ws/install/village_zhang

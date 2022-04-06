@@ -35,5 +35,5 @@ add_executable(wang2_node src/wang2.cpp)
 ament_target_dependencies(wang2_node rclcpp)
 install(TARGETS
   wang2_node
-  DESTINATION lib/${PROJECT_NAME}
+  DESTINATION lib/${PROJECT_NAME} 
 )

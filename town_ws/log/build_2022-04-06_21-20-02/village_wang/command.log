@@ -1,0 +1,4 @@
+Invoking command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/town_ws/build/village_wang -- -j16 -l16
+Invoked command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/zym/Desktop/zym-ros2/town_ws/build/village_wang -- -j16 -l16
+Invoking command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zym/Desktop/zym-ros2/town_ws/build/village_wang
+Invoked command in '/home/zym/Desktop/zym-ros2/town_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/zym/Desktop/zym-ros2/town_ws/build/village_wang

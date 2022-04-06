@@ -105,7 +105,7 @@ colcon是一个功能包构建工具，用于编译代码
 >**mkdir -p twn_ws/src**
 >**cd town_ws/src**
 #### 2. 创建一个功能包
->**ros2 pkg create village_li --build-tyoe ament_python --dependencies rclpy**
+>**ros2 pkg create village_li --build-type ament_python --dependencies rclpy**
 * pkg create: 创建包
 * --build-type： 指定该包的编译类型，有**ament_pyhton,ament_cmake,cmake**，**默认**ament_cmake**
 * --dependencies: 指定功能包的依赖，这里给了一个人ros2的python客户端接口: **rcply**
@@ -215,7 +215,7 @@ def main(args=None):
     rclpy.spin(node) # 保持节点运行，检测是否收到退出指令（Ctrl+C）
     rclpy.shutdown() # 关闭rclpy
 ```
-### 新建一个节点(C++)
+### 2.8 创建一个C++功能包
 1. 创建王家村功能包
 >**cd town_ws/src**
 >**ros2 pkg create village_wang --build-type ament_cmake --dependencies rclcpp**
@@ -223,8 +223,88 @@ def main(args=None):
 2. 创建节点
 >**cd village_wang/src
 touch wang2.cpp**
+### 2.9 POP方法编写C++节点并测试
+####1.编写代码
+```C++
+#include "rclcpp/rclcpp.hpp"
+int main(int argc, char **argv)
+{
+    rclcpp::init(argc, argv);
+    /*产生一个Wang2的节点*/
+    auto node = std::make_shared<rclcpp::Node>("wang2");
+    // 打印一句自我介绍
+    RCLCPP_INFO(node->get_logger(), "大家好，我是单身狗wang2.");
+    /* 运行节点，并检测退出信号*/
+    rclcpp::spin(node);
+    rclcpp::shutdown();
+    return 0;
+}
+```
+主函数中首先初始化rclcpp，然后新建一个Node节点的对象，命名wang2，接着是使用rclcpp让这个节点暴露在外面，并检测退出信号（Ctrl+检测），检测到退出信号后，就会执行rcl.shutdown()关闭节点
+####2. 添加CmakeLists
+在wang2.cpp中输入上面的内容，还需要修改一下CmakeLists.txt
+在CmakeLists.txt最后一行加入两行代码
+>**add_executable(wnag2_node src/wang2.cpp)**
+>**ament_target_dependencies(wang2_node rclcpp)**
 
+添加这两行代码的目的是让编译器编译wang2.cpp这个文件，不然不会主动编译。接着在上面两行代码下面添加下面的代码。
+```C++
+install(TARGETS
+  wang2_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+```
+这个是C++比Python要麻烦的地方，需要手动将编译好的文件安装到install/village_wang/lib/village_wang下
+#### 3. 编译运行节点
+打开Vscode终端，进入town_ws
+编译节点
+>**colcon build**
 
+source环境
+>**source install/setup.bash**
+
+运行节点
+>**ros2 run village_wang wang2_node**
+
+####4. 测试
+当节点运行起来后，可以再尝试使用ros2 node list 指令来查看现有的节点。这个时候你应该能看到
+### 2.10 OOP方式编写一个节点
+####1. 编写代码
+输入下列代码
+```C++
+#include "rclcpp/rclcpp.hpp"
+/*
+    创建一个类节点，名字叫做SingleDogNode,继承自Node.
+*/
+class SingleDogNode : public rclcpp::Node
+{
+public:
+    // 构造函数,有一个参数为节点名称
+    SingleDogNode(std::string name) : Node(name)
+    {
+        // 打印一句自我介绍
+        RCLCPP_INFO(this->get_logger(), "大家好，我是单身狗%s.",name.c_str());
+    }
+private:
+};
+
+int main(int argc, char **argv)
+{
+    rclcpp::init(argc, argv);
+    /*产生一个Wang2的节点*/
+    auto node = std::make_shared<SingleDogNode>("wang2");
+    /* 运行节点，并检测退出信号*/
+    rclcpp::spin(node);
+    rclcpp::shutdown();
+    return 0;
+}
+```
+上面的代码声明了一个叫做**SingleDogNode**的类，并在类的初始化函数中，输出了一句话。主函数中首先初始化rclcpp，然后新建了一个**SingleDogNode**节点的对象，接着使用**rclcpp**让这个节点暴露在外面，并检测退出信号（Ctrl+C），检测到退出信号后，就会执行**rcl.shutdown()**关闭节点。
+### 2.11 ros2相关指令
+#### 1.ros2功能包相关指令
+用法：ros2 pkg [-h]
+Call ros2 pkg command  -h 可以获得更多使用细节
+各种
 
 
 
