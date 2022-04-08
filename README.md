@@ -301,10 +301,129 @@ int main(int argc, char **argv)
 ```
 上面的代码声明了一个叫做**SingleDogNode**的类，并在类的初始化函数中，输出了一句话。主函数中首先初始化rclcpp，然后新建了一个**SingleDogNode**节点的对象，接着使用**rclcpp**让这个节点暴露在外面，并检测退出信号（Ctrl+C），检测到退出信号后，就会执行**rcl.shutdown()**关闭节点。
 ### 2.11 ros2相关指令
-#### 1.ros2功能包相关指令
+#### 2.11.1.ros2功能包相关指令
 用法：ros2 pkg [-h]
 Call ros2 pkg command  -h 可以获得更多使用细节
-各种
+各种与包有关的子命令
+可选的参数：
+-h, --help     显示帮助并退出
+Commands:
+creat     创建一个新的ROS功能包
+executable   列出包下的可执行文件
+list    输出有效的包的列表
+prefix  输出一个包的前缀路径
+xml     输出某个包的xml
+使用‘ros2 pkg < command > -h'可以获得更多细节
+#### 2.11.2. ros2节点相关指令
+用法：ros2 node[-h]
+Call 'ros2 node < command>-h'可以获得更多细节
+各种与node有关的子指令
+可选的参数：
+-h ，-help   显示帮助并退出
+Command：
+info 输出一个节点的信息
+list 输出所有在线的节点
+使用‘ros2 node < commmand> -h'可以获得更多使用细节
+#### 2.11.3.colcon相关文档
+在线文档：https://colcon.readthedocs.io/en/released/user/installation.html
+### 2.12 ROS2客户端库RCL介绍
+* RCL（ROS Client Library）ROS客户端库，其实就是ROS的一种API，提供了对ROS话题、服务、参数、Action等接口。
+* python语言提供了rclpy来操作ROS2的节点话题服务等，而C++则使用rclcpp提供API操作ROS2的节点话题和服务等。
+## 3. ROS2通信机制(话题与服务)
+* ROS2中Topic通信方式，Topic通信模型是一种发布订阅模型
+* 节点与节点之间通过话题来相互通信（传输数据）
+* 节点1创建一个发布者（Publisher)发布一个话题（topic），节点2创建了一个订阅者（Subscriber）来订阅李四发布的话题。
+* ROS2中话题通信可以是1对1、1对n、n对1、n对n的通信。
+### 3.1 ROS2话题介绍
+#### 3.1.1 话题通信规则
+需要满足以下规则：
+* 话题名字是关键，发布订阅接口类型要相同，发布的是字符串，接受也要用字符串来接受
+* 同一个节点可以订阅多个话题，同时也可以发布多个话题，就像一本书的作者也可以是另外一本书的读者；
+* 同一个小说不能有多个作者，但是小说不一样，同一个话题可以有多个发布者。
+### 3.2 相关的工具
+#### 3.2.1 RQT工具rqt_graph
+ROS2作为强大的工具，在运行过程中，我们可以通过命令来看到节点和节点之间的数据关系的。
+依次输入：
+>**ros2 run demo_nodes_py listener**
+>**ros2 run demo_nodes_cpp talker**
+>**rqt_graph**
+#### 3.2.2 ROS2话题相关命令行界面（CLI）工具
+>**ros2 topic -h**
+>**ros2 topic list  //返回系统当前活动的所有主题的列表**
+>**ros2 topic list -t 增加消息类型**
+>**ros2 topic echo //打印实时话题内容**
+>**ros2 topic info //查看主题信息**
+>**ros2 interface show   //查看消息类型**
+>**ros2 topic pub arg //手动发布命令**
+### 3.3 ROS2话题编程
+#### 3.3.1 话题通信实现（python）
+1. 发布话题
+我们创建作家这个类WriterNode的时候让其继承Node节点，即下面这样：
+>**class WriterNode(Node):**
+
+继承后，WriterNode类具备以下四个能力
+* 创建一个话题发布者的能力
+* 创建一个定时器的能力
+* 创建一个话题订阅者的能力
+* 获取日志打印器的能力
+2. 编写程序
+在li4.py文件中添加如下代码
+```Pyhton
+#!/usr/bin/env python3
+import rclpy
+from rclpy.node import Node
+# 1. 导入消息类型
+from std_msgs.msg import String
+
+
+class WriterNode(Node):
+    """
+    创建一个李四节点，并在初始化时输出一个话
+    """
+    def __init__(self,name):
+        super().__init__(name)
+        self.get_logger().info("大家好，我是%s,我是一名作家！" % name)
+        # 2.创建并初始化发布者成员属性pubnovel
+        self.pub_novel = self.create_publisher(String,"sexy_girl", 10) 
+
+        #3. 编写发布逻辑
+        # 创建定时器成员属性timer
+        self.i = 0 # i 是个计数器，用来算章节编号的
+        timer_period = 5  #每5s写一章节话
+        self.timer = self.create_timer(timer_period, self.timer_callback)  #启动一个定时装置，每 1 s,调用一次time_callback函数
+
+
+    def timer_callback(self):
+        """
+        定时器回调函数
+        """
+        msg = String()
+        msg.data = '第%d回：潋滟湖 %d 次偶遇胡艳娘' % (self.i,self.i)
+        self.pub_novel.publish(msg)  #将小说内容发布出去
+        self.get_logger().info('李四:我发布了艳娘传奇："%s"' % msg.data)    #打印一下发布的数据，供我们看
+        self.i += 1 #章节编号+1
+```
+3. 代码解析
+* 创建发布者
+create_publisher(type,name,size)
+--------type：方法类型
+--------name：话题名称
+--------size：消息队列长度
+from std_msgs.msg import String
+--------从std_msgs.msg中导入String类
+--------std_msgs是ROS2自带的接口类型，规定了我们常用的消息类型，可以使用下面的命令来查看std.msgs中所有的消息类型
+**ros2 interface package std_msgs**
+还可以使用下面的命令来查看ros2自带的消息类型
+**ros2 interface list**
+* 编写发布逻辑发布数据
+创建一个定时器
+**self.create_timer(timer_period, self.timer_calback)**
+这个定时器的作用是根据传入的**timer_period**时间周期，每隔一个timer_period秒，调用一次**self.timer_calback**函数，在**self.timer_calback**函数里，我们使用public方法将数据发送出去。也就是每1s中发送一次内容
+**self.write.publish(msg)   #将小说内容发布出去** 
+
+
+
+
 
 
 
