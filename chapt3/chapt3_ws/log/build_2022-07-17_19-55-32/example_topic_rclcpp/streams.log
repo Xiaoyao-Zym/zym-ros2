@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/zym/Desktop/zym-ros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zym/Desktop/zym-ros2/chapt3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/zym/Desktop/zym-ros2/chapt3/chapt3_ws/install/example_topic_rclcpp
+[0.018s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.031s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.126s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.146s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.241s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.242s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.327s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.362s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.363s] -- Added test 'lint_cmake' to check CMake code style
+[0.363s] -- Added test 'xmllint' to check XML markup files
+[0.365s] -- Configuring done
+[0.365s] CMake Error at CMakeLists.txt:34 (add_executable):
+[0.366s]   Cannot find source file:
+[0.366s] 
+[0.366s]     src/topic_publisher_01.cpp
+[0.366s] 
+[0.366s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.366s]   .hpp .hxx .in .txx
+[0.366s] 
+[0.366s] 
+[0.366s] CMake Error at CMakeLists.txt:34 (add_executable):
+[0.366s]   No SOURCES given to target: topic_publisher_01
+[0.366s] 
+[0.366s] 
+[0.366s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.371s] Invoked command in '/home/zym/Desktop/zym-ros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/zym/Desktop/zym-ros2/chapt3/chapt3_ws/src/example_topic_rclcpp -DCMAKE_INSTALL_PREFIX=/home/zym/Desktop/zym-ros2/chapt3/chapt3_ws/install/example_topic_rclcpp
